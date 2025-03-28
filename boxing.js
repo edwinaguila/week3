@@ -6,9 +6,11 @@ let player1 = {
 }
 
 let player2 = {
-    name: "Player 2"
+    name: "Player 2",
     health: 100,
 }
+
+var currentPlayer = ''
 
 // Function to generate random damage
 function generateDamage() {
